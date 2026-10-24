@@ -8,8 +8,11 @@ function Login() {
     <main className={styles.signupPage}>
       <section className={styles.leftSection}>
         <div className={styles.formContainer}>
-          <h1 className={styles.heading}>Get Started Now</h1>
+          <h1 className={styles.heading}>Welcome back!</h1>
 
+          <p className={styles.subtitle}>
+            Enter your Credentials to access your account
+          </p>
           <form className={styles.signupForm}>
             <div className={styles.inputGroup}>
               <label htmlFor="name">Name</label>
@@ -55,35 +58,26 @@ function Login() {
               Signup
             </button>
           </form>
-          
-<div className={styles.divider}>
-  <span>Or</span>
-</div>
 
-<div className={styles.socialButtons}>
-  <button type="button" className={styles.socialButton}>
-    <img
-      src={gIcon}
-      alt=""
-      className={styles.socialIcon}
-    />
-    <span>Sign in with Google</span>
-  </button>
+          <div className={styles.divider}>
+            <span>Or</span>
+          </div>
 
-  <button type="button" className={styles.socialButton}>
-    <img
-      src={aIcon}
-      alt=""
-      className={styles.socialIcon}
-    />
-    <span>Sign in with Apple</span>
-  </button>
-</div>
+          <div className={styles.socialButtons}>
+            <button type="button" className={styles.socialButton}>
+              <img src={gIcon} alt="" className={styles.socialIcon} />
+              <span>Sign in with Google</span>
+            </button>
 
-<p className={styles.signinText}>
-  Have an account? <a href="/login">Sign In</a>
-</p>
+            <button type="button" className={styles.socialButton}>
+              <img src={aIcon} alt="" className={styles.socialIcon} />
+              <span>Sign in with Apple</span>
+            </button>
+          </div>
 
+          <p className={styles.signinText}>
+            Have an account? <a href="/login">Sign In</a>
+          </p>
         </div>
       </section>
 
