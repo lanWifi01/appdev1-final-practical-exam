@@ -1,16 +1,5 @@
-# React + Vite
+# Reflection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Natutunan ko sa practical exam na hindi ka lang dapat basta basta nag p-prompt kahit na open ang ai or open notes. Dapat naiintindihan mo pa rin ang ginagawa mo at the same time, dinodouble check mo bawat phase before commiting. Hindi mahalaga na medyo matagal, basta naiintindihan mo ang inputs, naiintindihan mo ang flow. To be honest, muntik na ako magkamali sa unang part ng pag design, dahil pinaprompt ko lang sa ai na kunin ang design, nang basahin ko ulit ang instructions, step-by-step pala dapat ang pag commit at hindi agad agad na design. Base dun, pwede ko itong ma-apply in the future na hindi isang bagsakan lang ang pag gawa lalo na kung gumagamit ka ng ai. Dapat hinihimay mo bawat parts para hindi ka mawala at para mas maintindihan mo ang mga ginagawa mo. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+In conclusion, dapat, hindi ka lang basta basta prompt ng prompt. Iniintindi rin dapat bawat phase. Kung naguguluhan naman, take your time na maintindihan ang nangyayari, that way, kung lumaki man ang project na ginagawa mo, nat-track mo pa rin ang progress at the same time, natututunan mo ng mas maayos ang flow ng kung ano man ang ginagawa mo.
