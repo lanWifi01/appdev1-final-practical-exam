@@ -2,6 +2,7 @@ import styles from "./Signup.module.css";
 import flower from "./../../assets/blossom-flower.svg";
 import gIcon from "./../../assets/icons-google-logo.svg";
 import aIcon from "./../../assets/icons-apple-logo.svg";
+import { Input } from "@/components/ui/input";
 
 function Signup() {
   return (
@@ -13,34 +14,37 @@ function Signup() {
           <form className={styles.signupForm}>
             <div className={styles.inputGroup}>
               <label htmlFor="name">Name</label>
-              <input
+              <Input
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Enter your name"
                 required
+                className={styles.textInput}
               />
             </div>
 
             <div className={styles.inputGroup}>
               <label htmlFor="email">Email address</label>
-              <input
+              <Input
                 type="email"
                 id="email"
                 name="email"
                 placeholder="Enter your email"
                 required
+                className={styles.textInput}
               />
             </div>
 
             <div className={styles.inputGroup}>
               <label htmlFor="password">Password</label>
-              <input
+              <Input
                 type="password"
                 id="password"
                 name="password"
                 placeholder="Enter your password"
                 required
+                className={styles.textInput}
               />
             </div>
 
@@ -55,35 +59,26 @@ function Signup() {
               Signup
             </button>
           </form>
-          
-<div className={styles.divider}>
-  <span>Or</span>
-</div>
 
-<div className={styles.socialButtons}>
-  <button type="button" className={styles.socialButton}>
-    <img
-      src={gIcon}
-      alt=""
-      className={styles.socialIcon}
-    />
-    <span>Sign in with Google</span>
-  </button>
+          <div className={styles.divider}>
+            <span>Or</span>
+          </div>
 
-  <button type="button" className={styles.socialButton}>
-    <img
-      src={aIcon}
-      alt=""
-      className={styles.socialIcon}
-    />
-    <span>Sign in with Apple</span>
-  </button>
-</div>
+          <div className={styles.socialButtons}>
+            <button type="button" className={styles.socialButton}>
+              <img src={gIcon} alt="" className={styles.socialIcon} />
+              <span>Sign in with Google</span>
+            </button>
 
-<p className={styles.signinText}>
-  Have an account? <a href="/login">Sign In</a>
-</p>
+            <button type="button" className={styles.socialButton}>
+              <img src={aIcon} alt="" className={styles.socialIcon} />
+              <span>Sign in with Apple</span>
+            </button>
+          </div>
 
+          <p className={styles.signinText}>
+            Have an account? <a href="/login">Sign In</a>
+          </p>
         </div>
       </section>
 
