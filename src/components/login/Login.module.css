@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+.signupPage {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.rightSection {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.flowerImage {
+  display: block;
+  width: 100%;
+  max-width: 390px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.leftSection {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 300px;
+}
+
+.heading {
+  margin: 0 0 36px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #111111;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputGroup label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #111111;
+}
+
+.inputGroup input {
+  width: 100%;
+  height: 34px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 7px;
+  outline: none;
+  font-family: inherit;
+  font-size: 11px;
+}
+
+.inputGroup input::placeholder {
+  color: #b8b8b8;
+}
+
+.inputGroup input:focus {
+  border-color: #385b25;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -3px;
+  font-size: 9px;
+  color: #111111;
+}
+
+.terms input {
+  width: 11px;
+  height: 11px;
+  margin: 0;
+  accent-color: #385b25;
+}
+
+.terms a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.signupButton {
+  width: 100%;
+  height: 35px;
+  margin-top: 2px;
+  border: none;
+  border-radius: 7px;
+  background-color: #385b25;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signupButton:hover {
+  background-color: #2d491e;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0;
+  color: #111111;
+  font-size: 11px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+/* Social sign-in buttons */
+.socialButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.socialButton {
+  flex: 1;
+  min-width: 0;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid #dedede;
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: inherit;
+  font-size: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.socialButton:hover {
+  background-color: #f8f8f8;
+}
+
+.socialIcon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* Sign-in text */
+.signinText {
+  margin-top: 22px;
+  text-align: center;
+  color: #111111;
+  font-size: 11px;
+}
+
+.signinText a {
+  margin-left: 3px;
+  color: #2454e8;
+  text-decoration: none;
+}
+
+.signinText a:hover {
+  text-decoration: underline;
+}
