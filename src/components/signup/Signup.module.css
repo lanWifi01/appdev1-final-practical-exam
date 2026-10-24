@@ -129,3 +129,74 @@ body {
   background-color: #2d491e;
 }
 
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0;
+  color: #111111;
+  font-size: 11px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+/* Social sign-in buttons */
+.socialButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.socialButton {
+  flex: 1;
+  min-width: 0;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid #dedede;
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: inherit;
+  font-size: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.socialButton:hover {
+  background-color: #f8f8f8;
+}
+
+.socialIcon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* Sign-in text */
+.signinText {
+  margin-top: 22px;
+  text-align: center;
+  color: #111111;
+  font-size: 11px;
+}
+
+.signinText a {
+  margin-left: 3px;
+  color: #2454e8;
+  text-decoration: none;
+}
+
+.signinText a:hover {
+  text-decoration: underline;
+}
