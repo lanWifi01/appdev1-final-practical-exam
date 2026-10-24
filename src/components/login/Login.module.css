@@ -207,3 +207,91 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputGroup label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #111111;
+}
+
+.inputGroup input {
+  width: 100%;
+  height: 34px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 7px;
+  outline: none;
+  font-family: inherit;
+  font-size: 11px;
+}
+
+.inputGroup input::placeholder {
+  color: #b8b8b8;
+}
+
+.inputGroup input:focus {
+  border-color: #385b25;
+}
+
+.passwordHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forgotPassword {
+  color: #2454e8;
+  font-size: 9px;
+  text-decoration: none;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -3px;
+  font-size: 9px;
+  color: #111111;
+}
+
+.rememberMe input {
+  width: 11px;
+  height: 11px;
+  margin: 0;
+  accent-color: #385b25;
+}
+
+.loginButton {
+  width: 100%;
+  height: 35px;
+  margin-top: 2px;
+  border: none;
+  border-radius: 7px;
+  background-color: #385b25;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #2d491e;
+}

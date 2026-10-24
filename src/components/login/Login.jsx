@@ -13,18 +13,8 @@ function Login() {
           <p className={styles.subtitle}>
             Enter your Credentials to access your account
           </p>
-          <form className={styles.signupForm}>
-            <div className={styles.inputGroup}>
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
 
+          <form className={styles.loginForm}>
             <div className={styles.inputGroup}>
               <label htmlFor="email">Email address</label>
               <input
@@ -32,30 +22,36 @@ function Login() {
                 id="email"
                 name="email"
                 placeholder="Enter your email"
+                autoComplete="email"
                 required
               />
             </div>
 
             <div className={styles.inputGroup}>
-              <label htmlFor="password">Password</label>
+              <div className={styles.passwordHeader}>
+                <label htmlFor="password">Password</label>
+                <a href="/forgot-password" className={styles.forgotPassword}>
+                  forgot password
+                </a>
+              </div>
+
               <input
                 type="password"
                 id="password"
                 name="password"
                 placeholder="Enter your password"
+                autoComplete="current-password"
                 required
               />
             </div>
 
-            <label className={styles.terms}>
-              <input type="checkbox" name="terms" required />
-              <span>
-                I agree to the <a href="#terms">terms &amp; policy</a>
-              </span>
+            <label className={styles.rememberMe}>
+              <input type="checkbox" name="remember" />
+              <span>Remember for 30 days</span>
             </label>
 
-            <button type="submit" className={styles.signupButton}>
-              Signup
+            <button type="submit" className={styles.loginButton}>
+              Login
             </button>
           </form>
 
