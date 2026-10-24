@@ -71,7 +71,7 @@
   color: var(--color-text);
 }
 
-.inputGroup input {
+.inputGroup .textInput {
   width: 100%;
   height: var(--input-height);
   box-sizing: border-box;
@@ -81,14 +81,19 @@
   outline: none;
   font-family: inherit;
   font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  box-shadow: none;
 }
 
-.inputGroup input::placeholder {
+.inputGroup .textInput::placeholder {
   color: var(--color-placeholder);
+  opacity: 1;
 }
 
-.inputGroup input:focus {
+.inputGroup .textInput:focus {
   border-color: var(--color-primary);
+  outline: none;
+  box-shadow: none;
 }
 
 .passwordHeader {

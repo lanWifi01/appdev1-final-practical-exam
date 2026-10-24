@@ -2,6 +2,7 @@ import styles from "./Login.module.css";
 import flower from "./../../assets/blossom-flower.svg";
 import gIcon from "./../../assets/icons-google-logo.svg";
 import aIcon from "./../../assets/icons-apple-logo.svg";
+import { Input } from "@/components/ui/input";
 
 function Login() {
   return (
@@ -17,13 +18,13 @@ function Login() {
           <form className={styles.loginForm}>
             <div className={styles.inputGroup}>
               <label htmlFor="email">Email address</label>
-              <input
+              <Input
                 type="email"
                 id="email"
                 name="email"
                 placeholder="Enter your email"
-                autoComplete="email"
                 required
+                className={styles.textInput}
               />
             </div>
 
@@ -35,13 +36,13 @@ function Login() {
                 </a>
               </div>
 
-              <input
+              <Input
                 type="password"
                 id="password"
                 name="password"
                 placeholder="Enter your password"
-                autoComplete="current-password"
                 required
+                className={styles.textInput}
               />
             </div>
 
