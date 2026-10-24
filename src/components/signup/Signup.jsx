@@ -1,4 +1,3 @@
-
 import styles from "./Signup.module.css";
 import flower from "./../../assets/blossom-flower.svg";
 
@@ -6,7 +5,7 @@ function Signup() {
   return (
     <main className={styles.signupPage}>
       <section className={styles.leftSection}>
-        {/* Sign up form will go here later */}
+        <h1 className={styles.heading}>Get Started Now</h1>
       </section>
 
       <section className={styles.rightSection}>
